@@ -1,27 +1,36 @@
-# AI Chatbot
+# AI Project Mentor
 
-## Project Description
+AI Project Mentor is an AI-based application that helps college students find suitable project ideas and get guidance for developing their projects.
 
-This is an AI-powered chatbot developed using Python. It allows users to send messages and receive responses through a simple web interface.
+## Features
+
+* AI-based project suggestions
+* Project guidance for students
+* Simple and user-friendly interface
+* Suggestions based on student interests
 
 ## Technologies Used
 
 * Python
-* Flask
-* Ollama
-* HTML/CSS
-
-## Features
-
-* User-friendly chatbot interface
-* AI-generated responses
-* Local AI model using Ollama
-* Runs on localhost
+* Streamlit
+* Google Gemini API
+* Git & GitHub
 
 ## How to Run
 
-1. Install the required Python packages.
-2. Start Ollama.
-3. Run the Python application.
-4. Open `http://localhost:8052` in a web browser.
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Future Enhancements
+
+* Personalized project roadmaps
+* Project difficulty recommendations
+* Project progress tracking
+* More technology categories
+
+## Conclusion
+
+AI Project Mentor makes it easier for students to choose project ideas and get useful AI-powered guidance.
 
